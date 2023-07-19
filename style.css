@@ -73,6 +73,7 @@ header{
 }
 #menu-icon{
     transform: translate(171px,0px);
+   
 }
 .logo{
     transform: translate(-167px,0px);
@@ -82,7 +83,7 @@ header{
 
 /*home section*/
 section{
-    padding: 160px 15% 120px;
+    padding: 160px 10% 120px;
 }
 .home{
     position: relative;
@@ -116,4 +117,59 @@ section{
 .container-lg .btn:hover{
     background: orange;
     transition: all .50 ease;
+}
+
+/*about section*/
+#menu-icon{
+    display: none;
+}
+.about{
+
+    gap: 50px;
+    background-color: rgb(252, 245, 235);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.about .title-section h4{
+    font-family: 'Yuji Syuku', serif;
+    color: #202020;
+    letter-spacing: 1.5px;
+}
+.about .title-section span{
+    color: orange;
+    font-size: 20px;
+   
+}
+.about .title-section h1{
+    font-weight: 700;
+    text-transform: uppercase;
+    color:var(--second-bg-color) ;
+    font-size: 40px;
+}
+.description-section h4{
+    font-weight: 700;
+    font-size: 17px;
+    color:var(--second-bg-color) ;
+}
+
+.description-section p{
+    font-weight: 200;
+    margin-top: 20px;
+    color: #2a2a2a;
+}
+.description-section .btn-primary{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: orange;
+    padding: 10px 20px;
+    height: 50px;
+    width: 180px;
+}
+.description-section .btn-primary:hover{
+    transition: all .45s ease;
+    transform: scale(1.1);
 }
