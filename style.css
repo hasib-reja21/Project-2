@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+:root{
+    --bg-color:#2a2a2a;
+    --second-bg-color: #202020;
+    --text-color:#fff;
+    --second-color:#ccc;
+    --main-color:#ff4d05;
+    --big-font: 5rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
+body{
+    
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+    
+
+header{
+   
+   
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 22px 16%;
+    border-bottom: 1px solid transparent;
+    transition: all .45s ease;
+
+}
+.navlist{
+    display: flex;
+    margin-right: 50px;
+}
+.navlist a{
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0 25px;
+    transition: all .45s ease;
+}
+.navlist a:hover{
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+.banner img{
+    height: 100vh;
+    width: 100%;
+}
+.social-links i{
+    transform: translate(162px,0px);
+    padding: 7px;
+    font-size: 20px;
+
+}
+.social-links i:hover{
+    color: orange;
+}
+#menu-icon{
+    transform: translate(171px,0px);
+}
+.logo{
+    transform: translate(-167px,0px);
+    margin-right: 40px;
+    align-items: flex-start;
+}
+
+/*home section*/
+section{
+    padding: 160px 15% 120px;
+}
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image:url("image/banner-item1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    align-items: center;
+    justify-content: flex-start;
+}
+.container-lg .banner-content h1{
+    font-family: 'Finlandica', sans-serif;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+    line-height: 100%;
+    font-size: 7rem;
+    text-align: center;
+    font-weight: 600;
+}
+.container-lg .btn{
+  
+    margin-top: 50px;
+    margin-left:27rem;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+
+}
+.container-lg .btn:hover{
+    background: orange;
+    transition: all .50 ease;
+}
