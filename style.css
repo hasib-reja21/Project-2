@@ -342,3 +342,55 @@ background-image: url('image/hand-painted-black-watercolour-background_1048-1636
     transform:scale(1.1);
     transition: all .45s ease ;
 }
+/*client overview*/
+.testimonial-container{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.testimonial-description{
+    padding: 60px;
+    background: var(--text-color);
+}
+.testimonial-description .para{
+    letter-spacing: 0.15em;
+    font-size: 20px;
+    color: var(--color);
+} 
+.header-two h2{
+    box-sizing: border-box;
+    display: block;
+    font-size: 2.9em;
+    font-weight: 900;
+   
+    margin-bottom:5rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1;
+    color: var(--text-color);
+}
+.header-two h3{
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.32em;
+    padding-left: 63px;
+    color: orangered;
+}
+.testimonial-description p{
+    font-family: 'Yuji Syuku', serif;
+    font-size: bolder;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.testimonial-description hr{
+    transform: translate(0px,11px);
+    color: orange;
+    width: 50px;
+}
+.flex{
+    gap: 5px;
+    display: flex;
+}
