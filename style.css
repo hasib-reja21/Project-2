@@ -267,3 +267,26 @@ background-image: url('image/hand-painted-black-watercolour-background_1048-1636
     background: var(--color);
     transition: all .45s ease;
  }
+/* brand section*/
+.brand-container{
+    gap: 30px ;
+  
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.brand-item img{
+    width: 250px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 40px;
+    background:   #ccc;
+    
+}
+.brand-item img:hover{
+    background-color: black;
+    transition: all .70s ease;
+    
+}
