@@ -394,3 +394,29 @@ background-image: url('image/hand-painted-black-watercolour-background_1048-1636
     gap: 5px;
     display: flex;
 }
+/*achivement*/
+.our-achicement{
+    background: var(--second-color);
+}
+.achivement-container{
+   
+    gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.counter-info {
+    gap: 25px;
+    display: flex;
+}
+.counter-number .timer{
+    color: gray;
+    font-size: 90px;
+}
+.counter-number .timer:hover{
+    transition: all .45s ease;
+    color: orange;
+}
+.counter-info  p{
+    color: black;
+    margin-top: 60px;
+}
