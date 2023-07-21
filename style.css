@@ -533,3 +533,31 @@ background-image: url('image/hand-painted-black-watercolour-background_1048-1636
     transform: scaleX(1.1);
     transition: .5s;
 }
+/*footer*/
+.footer{
+    background: var(--color);
+}
+.row-two{
+    padding: 50px 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer-menu img{
+    
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 70px;
+    width: 60%;
+}
+.footer-menu{
+    margin-left: 70px;
+}
+.footer-menu .menu-list a{
+   
+  line-height: 1px;
+    color: white;
+}
+.footer-menu .menu-list li{
+    padding: 8px;
+}
+
