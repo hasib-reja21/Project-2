@@ -420,3 +420,116 @@ background-image: url('image/hand-painted-black-watercolour-background_1048-1636
     color: black;
     margin-top: 60px;
 }
+/*artical section*/
+.artical{
+  background: var(--text-color);
+}
+.portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 5rem;
+}
+.row{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.row img{
+    height: 400px;
+    width: 100%;
+    display: block;
+    transition: transform 0.5s;
+}
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.1),#ff004f);
+    position: absolute;
+    border-radius: 8px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 40px;
+    transition: height 0.5s;
+}
+.header-text .text-uppercase{
+    box-sizing: border-box;
+    display: block;
+    font-size: 2.9em;
+    font-weight: 900;
+   
+    margin-bottom:2rem;
+    
+    line-height: 1;
+    color: var(--color);
+}
+.header-text h3{
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.32em;
+    padding-left: 63px;
+    color: orangered;
+}
+.layer h5{
+    font-family: 'Golos Text', sans-serif;
+    color: var(--main-color);
+    font-size:27px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.layer p{
+    color: var(--text-color);
+    font-size: 1rem;
+    line-height: 1.8;
+    position: relative;
+
+}
+
+.layer i{
+    color: var(--main-color);
+    margin-top: 20px;
+    font-size: 20px;
+    background: var(--text-color);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.row:hover img{
+ transform: scale(1.1);
+}
+.row:hover .layer{
+    height: 100%;
+}
+.btn{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.btn button{
+    border-radius: 5px;
+    background-color: orange; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.btn button:hover{
+    transform: scaleX(1.1);
+    transition: .5s;
+}
