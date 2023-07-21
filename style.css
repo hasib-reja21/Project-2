@@ -511,13 +511,13 @@ background-image: url('image/hand-painted-black-watercolour-background_1048-1636
 .row:hover .layer{
     height: 100%;
 }
-.btn{
+.btn-artical{
     margin-top: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
  }
-.btn button{
+.btn-artical button{
     border-radius: 5px;
     background-color: orange; /* Green */
     border: none;
@@ -529,7 +529,7 @@ background-image: url('image/hand-painted-black-watercolour-background_1048-1636
     display: inline-block;
     font-size: 16px;
 }
-.btn button:hover{
+.btn-artical button:hover{
     transform: scaleX(1.1);
     transition: .5s;
 }
@@ -561,3 +561,30 @@ background-image: url('image/hand-painted-black-watercolour-background_1048-1636
     padding: 8px;
 }
 
+ /*footer bottom*/
+ .footer-bottom{
+    background: var(--second-color);
+}
+.row-bottom{
+    padding: 10px;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.bottom-links i{
+    
+    color: #ff4d05;
+    transform: translate(162px,0px);
+    padding: 7px;
+    font-size: 20px;
+
+}
+.bottom-links i:hover{
+    color: orange;
+}
+.container-two{
+  margin-left: 65px;
+}
+.container-two p{
+    color: orange;
+}
